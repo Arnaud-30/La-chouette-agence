@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper_54kb.png");
     background-size: 280px 280px;
 }
 
@@ -437,7 +437,9 @@ nav .caret {
 
 .mg-md {
     margin-top: 10px;
-    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 1.2em;
+    font-weight: 600;
 }
 
 .mg-lg {
@@ -742,10 +744,20 @@ h4 {
 .portfolio-thumb {
     margin-bottom: 24px;
 }
+@media screen and (max-width: 700px) {
+    .col-sm-6 {
+        display: block;
+        max-width: 80%;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+}
 
 .portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-top: -30px;
 }
 
 .avatar {
@@ -766,9 +778,7 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
-    background-color: #364577;
-}
+
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
@@ -776,6 +786,18 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+}
+
+.tc-white-h2 {
+    color: #F3976C!important;
+    font-size: 1.6em;
+    font-family: "helvetica";
+    text-align: center;
+    
+}
+
+.h2-bot {
+    margin-bottom: 80px;
 }
 
 .btn-atomic-tangerine {
@@ -804,21 +826,9 @@ h4 {
     color: #c27956!important;
 }
 
-.icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
-}
-
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/banniere_60kb.jpg");
 }
 
 .bg-presentation {
