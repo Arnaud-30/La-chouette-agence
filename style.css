@@ -702,7 +702,7 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    max-width: 500px;
     margin: auto auto auto auto;
 }
 
@@ -752,8 +752,18 @@ h4 {
         margin-right: auto;
         margin-left: auto;
     }
-    
 }
+
+@media screen and (max-width: 1000px) {
+    .col-sm-6 {
+        display: block;
+        max-width: 350px;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
 
 .portfolio-row {
     margin-bottom: 40px;
@@ -1048,5 +1058,24 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+}
+
+.reseau {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 60px;
+}
+
+@media screen and (max-width: 800px) {
+    .li {
+        margin-left: 30px;
+    }
+
+    .h3_footer {
+        font-size: 1em;
+        margin-left: 20px;
     }
 }
